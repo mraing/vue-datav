@@ -86,12 +86,12 @@ export default {
             text: '安阳'
           }
         ],
-        bgImgUrl: '../../../static/assets/map.jpg',
+        bgImgUrl: require('../../assets/map.jpg'),
         centerPointImg: {
-          url: '../../../static/assets/mapCenterPoint.png'
+          url: require('../../assets/mapCenterPoint.png')
         },
         pointsImg: {
-          url: '../../../static/assets/mapPoint.png'
+          url: require('../../assets/mapPoint.png')
         }
       }
     }

@@ -46,13 +46,13 @@ export default {
           }
         ],
         img: [
-          '../../../static/assets/1st.png',
-          '../../../static/assets/2st.png',
-          '../../../static/assets/3st.png',
-          '../../../static/assets/4st.png',
-          '../../../static/assets/5st.png',
-          '../../../static/assets/6st.png',
-          '../../../static/assets/7st.png'
+          require('../../assets/1st.png'),
+          require('../../assets/2st.png'),
+          require('../../assets/3st.png'),
+          require('../../assets/4st.png'),
+          require('../../assets/5st.png'),
+          require('../../assets/6st.png'),
+          require('../../assets/7st.png')
         ],
         showValue: true
       }
