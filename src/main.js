@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+// 可视化数据
+import dataV from '@jiaminghi/data-view'
 Vue.config.productionTip = false
+
+Vue.use(dataV)
 
 /* eslint-disable no-new */
 new Vue({
